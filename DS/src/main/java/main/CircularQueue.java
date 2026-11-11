@@ -2,7 +2,7 @@ package main;
 
 public class CircularQueue {
 	
-	private Object[] data = new Object[100];
+	private Object[] data;
 	private int capacity;
 	private int head;
 	private int tail;
@@ -42,5 +42,9 @@ public class CircularQueue {
 
 	public int size() {
 		return tail >= head ? tail - head + 1 : capacity - head + tail + 1;
+	}
+	
+	public static void main(String[] args) {
+		var queue = new CircularQueue(90);
 	}
 }
