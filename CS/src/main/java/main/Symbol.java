@@ -1,7 +1,6 @@
 package main;
 
 public abstract class Symbol {
-
 	private int code;
 	private String name;
 

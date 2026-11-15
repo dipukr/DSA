@@ -1,9 +1,8 @@
 package main;
 
 public class Base64 {
-	public static final int[] BASE64_INDEX = new int[128];
-	public static final char[] BASE64_CHARS = 
-			"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".toCharArray();
+	private static final int[] BASE64_INDEX = new int[128];
+	private static final char[] BASE64_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".toCharArray();
 
 	public Base64() {
 		for (int i = 0; i < BASE64_CHARS.length; i++)
