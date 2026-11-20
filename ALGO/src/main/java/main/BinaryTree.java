@@ -56,7 +56,7 @@ public class BinaryTree {
 	}
 	
 	public List<Integer> preorder(Node root) {
-		List<Integer> result = new ArrayList<>();
+		var result = new ArrayList<Integer>();
 		var stack = new Stack<Node>();
 		stack.push(root);
 		while (!stack.isEmpty()) {

@@ -3,7 +3,7 @@ package maven;
 record Data(String word, long count) {
 }
 
-public class Main {
+public class Draw {
 	public void draw(int[][] data) {
 
 	}
